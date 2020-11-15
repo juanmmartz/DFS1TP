@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+
+    <link rel="stylesheet" href="C:\Users\Juan\Desktop\Curso full stack\Pagina HTML\css\estilo.css"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Tienda Online </title>
+
+</head>
+
+<body>
+    <!-- Este es el Banner de la página --> 
+    <div class="header">
+        Tienda Online
+    </div>
+
+    <!--Este es la Barra de Opciones debajo del Banner-->
+    <div class="menu">
+
+        <a href="?p=principal"> Principal</a>
+        <a href="?p=productos"> Productos</a>
+        <a href="?p=ofertas"> Ofertas</a>
+        <a href="?p=carrito"> Carrito</a>
+
+    </div>
+
+    <div class="menu2">
+            
+        <a href="usuario/Conectarse.html"> Log-In</a>
+        <a href="registro/registrarse.html"> Registrarse </a>
+    
+    </div>
+
+    <!--Aquí se encuetra el contenido de la página (Productos)-->
+    <div class="cuerpo">
+
+        <table border="0">
+            <tr>
+                <th>Dispositivo</th>
+                <th>Características</th>
+            </tr>
+           <th> <img src="C:\Users\Juan\Desktop\Curso full stack\Pagina HTML\imagenes\1.jpg" alt="iphone" width="300px" height="300px" /> </th>
+           <td> 
+               <ul>
+                   <li>Procesador: Apple A13 BionicApple A13 Bionic.</li>
+                   <li>Cámara principal: 12 Mpx.</li>
+                   <li>Pantalla: 6,5"</li>
+                   <li>Tipo de batería: 3969 mAh.</li>
+                   <li>Memoria interna: Desde 64 GB.</li>
+                   <li>RAM: 6 GB.</li>
+                   <li>Precio 320.649,00</li>
+                   <form>
+
+                    <input type="button" title="Agregar" value="Agregar al carrito"/>
+                    <input type="button" title="Comprar" value="Comprar"/>
+                
+                </form>
+               </ul>
+           </td>
+        </table>
+
+        <br>
+        <br>
+    
+        <table border="0">
+            <tr>
+                <th>Dispositivo</th>
+                <th>Características</th>
+            </tr>
+            <th> <img src="C:\Users\Juan\Desktop\Curso full stack\Pagina HTML\imagenes\2.jpg" alt="samsung" width="300px" height="300px" /> </th>
+            <td>
+                <ul>
+                    <li>Pantalla: 6.2 pulgadas, HDR+, 120Hz</li>
+                    <li>Resolución: 3,040 x 1,440 pixeles.</li>
+                    <li>Procesador: 2.7GHz Snapdragon 865 / Exynos 990.</li>
+                    <li>RAM: 12GB.</li>
+                    <li>Almacenamiento: 128GB.</li>
+                    <li>Batería: 4,000mAh</li>
+                    <li>Precio: 97.999,00</li>
+                    <form>
+                        <input type="button" title="Agregar" value="Agregar al carrito"/>
+                        <input type="button" title="Comprar" value="Comprar"/>
+                    </form>
+                </ul>
+            </td>
+        </table>
+
+        <br>
+        <br>
+
+        <table border="0">
+            <tr>
+                <th>Dispositivo</th>
+                <th>Características</th>
+            </tr>
+            <th> <img src="C:\Users\Juan\Desktop\Curso full stack\Pagina HTML\imagenes\3.jpg" alt="xiaomi" width="300px" height="300px" /> </th>
+            <td>
+                <ul>
+                    <li>Pantalla: 6.53" IPS Full HD+</li>
+                    <li>Resolución: 2.340 x 1.080 pixeles</li>
+                    <li>Procesador: MediaTek Helio G85 Octa-core2.0GHz</li>
+                    <li>RAM: 3 / 4 GB</li>
+                    <li>Almacenamiento: 64 / 128 GB</li>
+                    <li>Batería:</li>
+                    <li>Precio: 48.499,00</li>
+                    <form>
+                        <input type="button" title="Agregar" value="Agregar al carrito"/>
+                        <input type="button" title="Comprar" value="Comprar"/>
+                    </form>
+                </ul>
+            </td>
+        </table>
+    </div>
+
+    <div class="footer">
+        Copyright Martinez Juan Manuel &copy; <?=date(Y)?>
+        <div class="maginer">
+        <img src="C:\Users\Juan\Desktop\Curso full stack\Pagina HTML\imagenes\4.jpg" width="200px" height="150px"/>
+        </div>
+    </div>
+</body>
+</html>
